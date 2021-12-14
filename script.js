@@ -32,6 +32,14 @@ var numbers = [1, 2, 3, 4];
 let sum = 0;
 
 for (let a = 0; a < numbers.length; a++) {
-    sum + = numbers[a];
+    sum += numbers[a];
 }
 console.log(sum);
+
+//Write a js program to find maximum and minimum element in an array.
+
+var num = [
+    1, 5, 6, 2, 3
+];
+var m = Math.min(...num);
+console.log(m)
