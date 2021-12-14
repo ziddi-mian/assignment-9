@@ -43,3 +43,6 @@ var num = [
 ];
 var m = Math.min(...num);
 console.log(m)
+
+var n = Math.max(...num)
+console.log(n);
