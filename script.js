@@ -9,18 +9,29 @@ console.log(a);
 
 // js program to print all negative Element in array
  
-var myArray = [4, -5, 0, 2, -67, 8, 10, -34 ];
+var Array = [4, -5, 0, 2, -67, 8, 10, -34 ];
 
 function getNegativeNumbers(array) {
 
     var negatives = [];
 
-    for (var i = 0; i < array.length; i++) {
-        if (array[i] < 0) {
-            negatives.push(array[i]);
+    for (var e = 0; e < array.length; e++) {
+        if (array[e] < 0) {
+            negatives.push(array[e]);
         }
     }
     return negatives;
 
 }
-console.log(getNegativeNumbers(myArray));
+console.log(getNegativeNumbers(Array));
+
+
+//Write a js program to find sum of all array elements
+
+var numbers = [1, 2, 3, 4];
+let sum = 0;
+
+for (let a = 0; a < numbers.length; a++) {
+    sum + = numbers[a];
+}
+console.log(sum);
