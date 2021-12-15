@@ -46,3 +46,44 @@ console.log(m)
 
 var n = Math.max(...num)
 console.log(n);
+
+
+
+// Write a js program to count total number of even and odd elements in an array.
+
+let getEvenNumbers = () => {
+    const arr = [1, 2, 3, 4, 5, 6];
+    
+    for (num of arr){	
+        if (num % 2 === 0) {       // 0 for even numbers and 1 for odd numbers.
+            document.writeln(num);
+           
+        }
+    }
+}
+getEvenNumbers();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
