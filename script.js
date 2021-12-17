@@ -14,12 +14,13 @@ var Array = [4, -5, 0, 2, -67, 8, 10, -34 ];
 function getNegativeNumbers(array) {
 
     var negatives = [];
-
+ 
     for (var e = 0; e < array.length; e++) {
         if (array[e] < 0) {
             negatives.push(array[e]);
         }
     }
+     
     return negatives;
 
 }
@@ -62,6 +63,28 @@ let getEvenNumbers = () => {
     }
 }
 getEvenNumbers();
+
+// Write a js program to count total number of negative elements in an array.
+
+var ar = [-1, -2, -3, 0, 0, 5, 12, 0, -10];
+var zeroCount = 0,
+  posCount = 0,
+  negativeCount = 0;
+ar.forEach((item) => {
+  if (item === 0) {
+    zeroCount++
+  } else if (item < 0) {
+    negativeCount++
+  } else if (item > 0) {
+    posCount++
+  }
+})
+
+console.log("ZeroCount:: " + zeroCount);
+console.log("PositiveCount :: " + posCount);
+console.log("NegativeCount:: " + negativeCount);
+
+
 
 
 
